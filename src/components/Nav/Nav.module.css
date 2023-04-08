@@ -1,0 +1,68 @@
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.homeAbout {
+    width: 100%;
+    text-align: start;
+}
+
+.btnh {
+    background-color:black ;
+    margin-right: 15px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: solid 3px greenyellow;
+}
+.btnh a {
+    color: white;
+}
+
+.btna {
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: solid 3px greenyellow;
+}
+
+.btna a {
+    color: white;
+}
+
+.searchBar {
+    width: 100%;
+    text-align: center;
+}
+
+.logout {
+    width: 100%;
+    text-align: end;
+}
+
+.btnl {
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: solid 3px greenyellow;
+}
+
+.btnl a {
+    color: white;
+}
+
+.btns {
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: solid 3px greenyellow;
+    cursor: pointer;
+}
+
+.inputS {
+    margin-right: 15px;
+}
