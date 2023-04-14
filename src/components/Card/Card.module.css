@@ -12,10 +12,19 @@
     border: solid 4px black;
 }
 
-.closeButton{
+.closeButton {
     border: 0px;
     background-color: cyan;
     width: fit-content;
     height: 40px;
     border-radius: 15px;
+}
+
+.btnFav {
+    border: 0px;
+    background-color: black;
+    width: fit-content;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 200px;
 }

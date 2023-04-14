@@ -1,8 +1,10 @@
+import style from "./About.module.css";
+
 const About = () => {
     return(
-        <div>
-            <h1 style={{ color:'white' }}>Work In Progress...</h1>
-            <h3 style={{ color:'white' }}>La Daianeta está laburando...</h3>
+        <div className={style.container}>
+            <h1>Work In Progress...</h1>
+            <p>La Daianeta está laburando...</p>
         </div>
     )
 }

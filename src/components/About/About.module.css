@@ -1,0 +1,6 @@
+.container{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -3,10 +3,11 @@ import Cards from './components/Cards/Cards.jsx';
 import Nav from "./components/Nav/Nav"
 import About from './components/About/About';
 import Detail from './components/Detail/Detail';
-import axios from 'axios';
-import { useState, useEffect } from 'react';
-import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Form from './components/Form/Form';
+import Favorites from './components/Favorites/Favorites';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 
 function App() {
    const location = useLocation();
@@ -59,6 +60,7 @@ function App() {
             <Route path='home' element={ <Cards onClose={onClose} characters={characters} />} />
             <Route path='about' element={<About/>} />
             <Route path='detail/:id' element={<Detail/>} />
+            <Route path='/favorites' element={<Favorites/>} />
          </Routes>
       </div>
    );
