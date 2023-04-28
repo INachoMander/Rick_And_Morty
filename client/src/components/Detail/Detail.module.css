@@ -1,0 +1,15 @@
+.cardDet{
+    background: #8EC23C;
+    background: radial-gradient(at center, #8EC23C, #2292F6);
+    padding: 1em;
+    border-radius: 20px;
+    border-top: 10px groove #2d3381;
+    border-bottom: 10px ridge #2d3381;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+}
+
+.cardDet img {
+    border: 10px groove #ff0000;
+    /*border: solid 4px black;*/
+}
